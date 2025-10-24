@@ -1,0 +1,99 @@
+Project Name - Shriram Labroratory & Diagnosis Centers,,,,,,,,,,
+Test Scenario -  Pathology Labs,,,,,,,,,,
+Tester Name - Vrushali Waghmare,,,,,        Defect Report of Shriram Labroratory & Diagnosis Centers,,,,,
+Review By - Gitanjali Mam,,,,,,,,,,
+    Date of Execution -  4/09/25,,,,,,,,,,
+     No. of Defect Test Cases - 30,,,,,,,,,,
+Test Scenario_Id,Test Scenario Name,Test Case Id,Test Title,Description,Steps,Test Data,Severity,Expected Result,Actual Result,Status
+TS_SP_01,HOME PAGE,HM_PG_019, Book Appointment,Name with Alphabates only,1.Enter  Alphabetical Name.                                                          2. And submit it.,N/A,Minor,Should Accept Proper Name like first name & last name.,it accept 1 keyword of alphabet also which is not Excepted.,Fail
+,,HM_PG_023, Book Appointment,"Email  Id  with spelling mistake                                                                      (""gmil.com"")","1.Enter  Email ID with spelling mistake in ""gmil.com""                                                                                2. And submit it.","""gmil.com""",Minor,Error Message Displayed,Email ID is accepted,Fail
+,,HM_PG_030, Book Appointment,Type of test with Numeric values,1.Enter  Numbers                                                                                     2. And submit it.,N/A,Minor,Error Message Displayed,Accepting & able to proceed,Fail
+,,HM_PG_031, Book Appointment,Type of test with Special Symbols,1.Enter  Special Symbols.                                                                     2. And submit it.,N/A,Minor,Error Message Displayed,Accepting & able to proceed,Fail
+,,HM_PG_033, Book Appointment, Date                                                                          ( Check with Past month Dates.),1.Select the past months dates.                                                 2.Try to submit.,Past month dates,Major,Not able to select,Able to select,Fail
+,,HM_PG_035, Book Appointment,Date                                                                        ( Check with   Next month Dates.),1.Select the Next months dates.                                                 2.Try to submit.,Next month dates,Major,Not able to select,Able to select,Fail
+,,HM_PG_036, Book Appointment,Date                                                                           ( Check with  Past week dates able          to book .),1.Select the past week dates able to book appointment.                                                                                      2.Try to submit.,past week dates,Major,Not able to select,Able to select,Fail
+,,HM_PG_037, Book Appointment,Date                                                                        (  Check with  Nextweek dates able to book .),1.Select the Nextweek dates able to book appointment.                                                                                   2.Try to submit.,Next week dates,Major,Not able to select,Able to select,Fail
+,,HM_PG_049, Book Appointment,                     Time                                   (check with time that  is passed),1.Select the time that is passed able to book appointment.                                                                                                  2.Try to submit.,Time that is passed,Major,Not able to select,Able to select,Fail
+,,HM_PG_040, Book Appointment,                     Time                                   (check with time that  is passing now /current time),1.Select the time that is now passing able to book appointment.                                                                                            2.Try to submit.,Time that is passing,Major,Not able to select,Able to select,Fail
+,,HM_PG_042, Book Appointment,Message with Nos.,1.Enter  Numbers                                                                                            2. And submit it.,N/A,Minor,Error Message Displayed,Accepting & able to proceed,Fail
+,,HM_PG_043, Book Appointment,Message With Special Sysmbols,1.Enter  Special Symbols.                                                                             2. And submit it.,N/A,Minor,Error Message Displayed,Accepting & able to proceed,Fail
+,,HM_PG_046, Book Appointment,Successfully able to book Appointment,1.Check after filling all details correctly able                              to book appointment.                                                                                               2.Get confrimation message About Appointent.,Successfully able to book appointment,Critical,Able to book Appointments &                    also get confirmation message.,Not Able to book Appointments   & also                        get confirmation message.,Fail
+TS_SP_03,Our Working Hours,HM_PG_049,Doctor Schedule ,check doctor schedule ,1.Clicl on the button doctor schedule.                                       2.check the schdeules for doctors.,Doctors Schedule,Critical,"displayed ,perform any action when click","Not displayed ,not perform any action when click",Fail
+TS_SP_07,About Shriram Laboratory,HM_PG_057,EXPORE NOW                                          (About Page),Check the About                            Page                                                    (How we work details),1.check how they work details.                               2.check their Computer Networking,Computer Networking,Minor,All details are correct,"Spelling Mistake ""Computer NetworSking""",Fail
+TS_SP_09,,HM_PG_068,Shriram Labroraties Doctors,Awesome Team of Doctors.,"1.Check Dr Sharada K Tiwari
+Medical Director & Ceo
+M.B.B.S. , M.D. (Path).                                                                        2.If click on the Facebook,Twitter,Linked In icon able to access their account.","Dr Sharada K Tiwari
+Medical Director & Ceo
+M.B.B.S. , M.D. (Path)",Blocker,"Yes,Able to access                                  Dr Sharada K Tiwari
+Medical Director & Ceo
+M.B.B.S. , M.D. (Path)","No,Able to access                                  Dr Sharada K Tiwari
+Medical Director & Ceo
+M.B.B.S. , M.D. (Path)",Fail
+,,HM_PG_070,Shriram Labroraties Doctors,Awesome Team of Doctors.,"1.Check Dr Praveen B. Naragude
+DIRECTOR & CFO
+M.B.B.S.,D. Ortho.                              2.If click on the Facebook,Twitter,Linked In icon able to access their account.","Dr Praveen B. Naragude
+DIRECTOR & CFO
+M.B.B.S.,D. Ortho.",Blocker,"Yes,Able to access                                  Dr Praveen B. Naragude
+DIRECTOR & CFO
+M.B.B.S.,D. Ortho.","No,Able to access                                  Dr Praveen B. Naragude
+DIRECTOR & CFO
+M.B.B.S.,D. Ortho.",Fail
+,,HM_PG_071,Shriram Labroraties Doctors,Awesome Team of Doctors.,"1.Check Dr .Praveen B. Naragude
+DIRECTOR & CFO
+M.B.B.S.,D. Ortho.                             2.Check the Photo  of Doctor is visbile.","Dr Praveen B. Naragude
+DIRECTOR & CFO
+M.B.B.S.,D. Ortho.        ", Critical,"Yes,Photo is visible                                 Dr Praveen B. Naragude
+DIRECTOR & CFO
+M.B.B.S.,D. Ortho.        ","Yes,Photo is visible                            Dr Praveen B. Naragude
+DIRECTOR & CFO
+M.B.B.S.,D. Ortho.        ",Fail
+,,HM_PG_072,Shriram Labroraties Doctors,Awesome Team of Doctors.,"1.Check  Dr Hemant Naragude
+DIRECTOR- Instrumentation
+M.V.Sc. (Pathology)                            2.If click on the Facebook,Twitter,Linked In icon able to access their account.","Dr Dr Hemant Naragude
+DIRECTOR- Instrumentation
+M.V.Sc. (Pathology)",Blocker,"Yes,Able to access                                  Dr  Hemant Naragude
+DIRECTOR- Instrumentation
+M.V.Sc. (Pathology)","No,Able to access                                  Dr Hemant Naragude
+DIRECTOR- Instrumentation
+M.V.Sc. (Pathology)",Fail
+,,HM_PG_073,Shriram Labroraties Doctors,Awesome Team of Doctors.,"1.Check    Dr Hemant Naragude
+DIRECTOR- Instrumentation
+M.V.Sc. (Pathology)                                                                                       2.Check the Photo  of Doctor is visbile.","Dr Hemant Naragude
+DIRECTOR- Instrumentation
+M.V.Sc. (Pathology)       ",Critical,"Yes,Photo is visible                                 Dr Hemant Naragude
+DIRECTOR- Instrumentation
+M.V.Sc. (Pathology)           ","Yes,Photo is visible                            Dr Hemant Naragude
+DIRECTOR- Instrumentation
+M.V.Sc. (Pathology)          ",Fail
+,,HM_PG_074,Shriram Labroraties Doctors,Awesome Team of Doctors.,"1.Check  Dr Kiran Naragude
+DIRECTOR- Public Relation
+M.B.B.S.                                                                                               2.If click on the Facebook,Twitter,Linked In icon able to access their account.","Dr Kiran Naragude
+DIRECTOR- Public Relation
+M.B.B.S.",Blocker,"Yes,Able to access                                  Dr Kiran Naragude
+DIRECTOR- Public Relation
+M.B.B.S..","No,Able to access                                  Dr Kiran Naragude
+DIRECTOR- Public Relation
+M.B.B.S.",Fail
+,,HM_PG_075,Shriram Labroraties Doctors,Awesome Team of Doctors.,"1.Check    Dr Kiran Naragude
+DIRECTOR- Public Relation
+M.B.B.S.                                                                                          2.Check the Photo  of Doctor is visbile."," Dr Dr Kiran Naragude
+DIRECTOR- Public Relation
+M.B.B.S.              ",Critical,"Yes,Photo is visible                                 Dr Kiran Naragude
+DIRECTOR- Public Relation
+M.B.B.S.                  ","Yes,Photo is visible                            Dr Kiran Naragude
+DIRECTOR- Public Relation
+M.B.B.S.                ",Fail
+TS_SP_017,Additional Services,Add_S_094,Additional Services ,Check the Additional Sevices,1.check the Adddtional Services.                                                          2. like Home Collection Facility. ,Home Collection Facilities available                                on prior appointment only  ,Critical,Yes ,Not able to book Appointmentts & also on prior basis.,Fail
+TS_SP_018,Instrumentations,I_0102,Instrumentations,Check the Instrumentations,"1.Check the Instruemnatation of TRANS- ASIA, INDIA- ERBA CHEM PRO :                                                                                              2. Image is visible of TRANS- ASIA, INDIA- ERBA CHEM PRO :                                                                                                                              3.after Zoomout it is clear .","TRANS- ASIA, INDIA- ERBA CHEM PRO Image",Major,Clearly Visible,Not Clearly Visible,Fail
+,,I_0110,Instrumentations,Check the Instrumentations,1.Check the Instruemnatation of CHEMULUMINESCENCE IMMUNOASSAY ANALYSER (CLIA)                                                                           2. Image is visible of CHEMULUMINESCENCE IMMUNOASSAY ANALYSER (CLIA)                                                                                                3.after Zoomout it is clear .,CHEMULUMINESCENCE IMMUNOASSAY ANALYSER (CLIA)Image,Major,Clearly Visbile,Not Clearly Visible,Fail
+TS_SP_019,Gallery,I_0111,Gallery,Check the gallery,1.Check the Gallery Images.                                                                          2. Image is visible clearly                                                                                             3.after Zoomout it is clear .,Gallery Image,Critical,All Images are Clearly Visbile,Not  All Images are Clearly Visible,Fail
+TS_SP_020,Contact Us,Message_0128,Message,Enter Message,1.enter Nos.                                                                                                             2. check is it accept.   ,N/A,Minor,Not Acceptable error ,Acceptable  ,Fail
+,,Message_0127,Message,Enter Message,1.enter Alphanumeric values.                                                               2. check is it accept.,N/A,Minor,Not Acceptable error ,Acceptable  ,Fail
+,,Message_0128,Message,Enter Message,1.enter Alphabets only.                                                                      2. check is it accept.,N/A,Major,Acceptable  only Alphabets.,Acceptable  all ,Fail
+,,SEND_0129,Able To Send Message.,Successfully Send the message,1.Enter all details correctly.                                                                          2. check able to send message..,N/A,Critical,Able to Successfully send the message. ,Not Able to Successfully send them  message. ,Fail
+,,SEND_0130,"""Send"" Button","Verify ""Send"" Button Work properly.","1.click on the ""Send"" Button.                                                                       2. verify is it Perform action after click on it.",N/A,Minor,GUI Should be Proper,GUI Should Not be Proper,Fail
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
