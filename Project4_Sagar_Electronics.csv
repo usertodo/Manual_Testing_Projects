@@ -1,0 +1,26 @@
+Project Name - Sagar Electronics,,,,,,,,,,
+Test Scenario -  Sagar Electronics,,,,,,,,,,
+Tester Name -  Vrushali Waghmare,,,,,         Defect Report of Sagar Electronics,,,,,
+Review By - Gitanjali Mam,,,,,,,,,,
+    Date of Execution - 16/08/25,,,,,,,,,,
+     No. of Defect Test Cases - 18,,,,,,,,,,
+Test Scenario_Id,Test Scenario Name,Test Case Id,Test Title,Description,Steps,Test Data,Severity,Expected Result,Actual Result,Status
+TS_SE_03,LINE CARD,LineCrd_021,Line Card,Check Line Card Details,1.click on the  Line Card section.                             .          2.Check company HongFuses info is site is visible.,N/A,Blocker ,Yes ,No (Error - Page Not Found),Fail
+,,LineCrd_025,Line Card,Check Line Card Details,1.click on the  Line Card section.                             .          2.Check company CHHE Connectors is site is visible.,N/A,Blocker ,Yes ,No (Error - Page Not Found),Fail
+,,LineCrd_025,Line Card,Check Line Card Details,1.click on the  Line Card section.                             .          2.Check company Koshin is site is visible.,N/A,Blocker ,Yes ,No (Error - Page Not Found),Fail
+TS_SE_04,CAREERS,NM_033, Name,Enter Full Name,1.Enter First Name or Last Name only.                                       2.try to submit,Full Name,Critical,"Error Meassage ""please match the format"".","Error Message 404 error page not found"".",Fail
+,,Sal_Req_046,Salary Requirement,Enter Salary with Alphabets  (Spelling),1.Enter the salary amount With Spelling of Number.                            2.Try to submit.,Salary Format,Minor,Correct Salary,"Error Message 404 error page not found"".",Fail
+,,Sal_Req_047,Salary Requirement,Enter Salary with  Numeric values.,1.Enter the salary amount With  Numeric values.                           2.Try to submit.,Salary Format,Minor,Correct Salary,"Error Meassage ""please match the format"".",Fail
+,,CM_WK_051,Company Worked For,Enter With only Alphabets,1.Enter the Alphabets    2.Try to submit.,N/A,Minor,Correct Company Name,"Error Message 404 error page not found"".",Fail
+,,Job_Applin_055,Submit Sucessfully,Check successfully complete the job Application form.,1.Fill all details correctly.                              2.Submit the form.,Job Applin,Major,Submit Successfully,"Error Message 404 error page not found"".",Fail
+TS_SE_05,CONTACT_US,CM_ SUPP_063,Company online Support,Verify Company provide 24x7 online support,"1Try to contact the company.                                2.Through mail,phone no. 3. to confirm online 24x7 support.",N/A,Major,Yes they provide,No they not provide ,Fail
+TS_SE_06,GET_IN_TOUCH,COMMENT_078,Comment ,Enter Comment to company,1.enter Nos.                                     2. check is it accept.,N/A,Minor,Not Acceptable error ,Acceptable  ,Fail
+,,COMMENT_079,Comment ,Enter Comment to company,1.enter Alphanumeric values.                                 2. check is it accept.,N/A,Minor,Not Acceptable error ,Acceptable  ,Fail
+,,COMMENT_080,Comment ,Enter Comment to company,1.enter Alphabets only.                               2. check is it accept.,N/A,Minor,Acceptable  only Alphabets.,Acceptable  all ,Fail
+,,SEND_081,Able To Send Message.,Successfully Send the message,1.Enter all details correctly.                             2. check able to send message..,N/A,Major,Able to Successfully send the message. ,Not Able to Successfully send the message. ,Fail
+,,SEND_082,"""Send"" Button","Verify ""Send"" Button Work properly.","1.click on the ""Send"" Button.                                      2. verify is it Perform action after click on it.",N/A,Minor,GUI Should be Proper,GUI Should Not be Proper,Fail
+TS_SE_07,PRODUCT,Product_083,Procuct Details,Check the Product details ,1.Industrials & electronics Components.                                  2. Check all components details.,N/A,Minor,All components should be Displayed.,Resistor contents-CFR Diode-Sckotkey compoennet is page is not visible,Fail
+,,Product_086,Search Box,Check the Search box,1.Search Box.                           2. Check abel to search any things.,N/A,Major,"yes,able to search","Not,able to search",Fail
+TS_SE_07,ENQUIRY_FORM,Enquiry_087,Enquiry Form,Verify the Enquiry form ,1.Check able to Perform action.                                   2.When click on it.,N/A,Critical,"yes,able ","Not,able ",Fail
+,,,,,,,,,,
+,,,,,,,,,,
